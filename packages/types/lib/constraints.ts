@@ -50,6 +50,9 @@ export const BASE_DESIRED_CAP_CONSTRAINTS = {
   printPageSourceOnFindFailure: {
     isBoolean: true,
   },
+  enableWdaRestart: {
+    isBoolean: true,
+  },
 } as const satisfies Constraints;
 
 export type BaseDriverCapConstraints = typeof BASE_DESIRED_CAP_CONSTRAINTS;
